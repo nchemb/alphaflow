@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-400">
         <p>© {new Date().getFullYear()} AlphaFlow. All rights reserved.</p>
         <div className="flex items-center gap-4">
-          <a className="hover:text-white" href="mailto:hello@goalphaflow.com">hello@goalphaflow.com</a>
+          <a className="hover:text-white" href="mailto:hello@goalphaflow.com">neejbiz@gmail.com</a>
         </div>
       </div>
     </footer>
