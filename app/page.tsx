@@ -20,10 +20,10 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight"
           >
-            <span className="gradient-text">Automate Growth with AI</span>
+            <span className="gradient-text">AI Systems That Make You Money</span>
           </motion.h1>
           <p className="mt-6 text-zinc-300 max-w-2xl mx-auto">
-            AlphaFlow helps businesses generate more qualified leads, streamline workflows, and scale operations using custom AI systems.
+            AlphaFlow builds practical AI systems that help service businesses answer calls, handle leads, and automate day‑to‑day tasks, giving owners more time to grow.
           </p>
           <div className="mt-8 flex justify-center">
             <a href="#contact" className="rounded-xl bg-brand px-6 py-3 font-medium hover:bg-brand-dark transition-colors shadow-glow">Get Started</a>
@@ -42,22 +42,18 @@ export default function Home() {
       <section id="services" className="mx-auto max-w-6xl px-6 py-12">
         <h2 className="text-2xl md:text-3xl font-semibold">What we do</h2>
         <p className="text-zinc-400 mt-2">High‑leverage AI systems tailored to your business.</p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <div className="grid md:grid-cols-3 gap-6 mt-8">
           <ServiceCard
-            title="AI‑Powered Lead Generation"
-            desc="Build intelligent outbound engines that find, qualify, and engage high‑intent prospects automatically across email, LinkedIn, and web."
+            title="AI Voice & Calling Agents"
+            desc="Give your business a 24/7 phone assistant that sounds natural, answers questions, qualifies leads, and books appointments — so you never miss a call or opportunity again."
           />
           <ServiceCard
-            title="Process Automation"
-            desc="Eliminate repetitive work with custom workflows—intake, data enrichment, reporting, and hand‑offs integrated with your stack."
+            title="AI‑Powered Lead & Quote Handling"
+            desc="Save hours and money on manual intake. Our AI automatically reads new inquiries, collects job details, and creates accurate quotes or responses — helping you reply faster and win more work."
           />
           <ServiceCard
-            title="Chatbots & Virtual Assistants"
-            desc="24/7 support and conversion using chatbots connected to your knowledge base, CRM, and tools."
-          />
-          <ServiceCard
-            title="Custom LLM Integrations"
-            desc="Bring AI into your product and data pipelines—embeddings, RAG, agentic tools, and more."
+            title="Custom AI Solutions"
+            desc="We design and build custom AI tools for your unique operations — from automating repetitive tasks to creating smart assistants that streamline your day‑to‑day workflow."
           />
         </div>
       </section>
