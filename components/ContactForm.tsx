@@ -41,7 +41,7 @@ export default function ContactForm() {
       </button>
 
       <p className="text-xs text-zinc-500">
-        You can also email us directly at <a className="underline hover:text-white" href="mailto:neejbiz@gmail.com">neejbiz@gmail.com</a>.
+        You can also email us directly at <a className="underline hover:text-white" href="mailto:hello@goalphaflow.com">hello@goalphaflow.com</a>.
       </p>
     </form>
   )
