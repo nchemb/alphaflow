@@ -39,7 +39,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 pt-16 pb-20 border-t border-zinc-800 mt-16">
+      <section className="mx-auto max-w-5xl px-6 pt-16 pb-20 border-t border-zinc-800">
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8 gradient-text">Meet the Founders</h2>
 
         <div className="text-zinc-300 text-lg max-w-3xl mx-auto text-center leading-relaxed space-y-6">
