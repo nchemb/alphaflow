@@ -151,40 +151,69 @@ export default function Home() {
       {/* Hero */}
       <section className="relative">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(600px_circle_at_center,rgba(124,58,237,0.15),transparent_60%)]" />
-        <div className="mx-auto max-w-6xl px-6 pt-20 pb-16 text-center">
+        <div className="mx-auto max-w-6xl px-6 pt-16 pb-12 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight"
           >
-            <span className="gradient-text">AI Systems That Make You Money</span>
+            <span className="gradient-text">AI That Levels Up Your Business</span>
           </motion.h1>
           <p className="mt-6 text-zinc-300 max-w-2xl mx-auto">
             AlphaFlow builds practical AI systems that help service businesses answer calls, handle leads, and automate day‑to‑day tasks, giving owners more time to grow.
           </p>
-          <div className="mt-8 flex justify-center">
-            <a href="#contact" className="rounded-xl bg-brand px-6 py-3 font-medium hover:bg-brand-dark transition-colors shadow-glow">Get Started</a>
+          <p className="mt-4 text-sm text-brand/80 font-medium">
+            Built by former Fortune 500 product leaders
+          </p>
+          <div className="mt-4 flex justify-center">
+            <a href="#contact" className="rounded-xl bg-brand px-6 py-3 font-medium hover:bg-brand-dark transition-colors shadow-glow">Start My Free AI Consultation</a>
           </div>
         </div>
       </section>
 
       {/* Logos / credibility hint (optional) */}
-      <section className="mx-auto max-w-6xl px-6 pb-8">
+      <section className="mx-auto max-w-6xl px-6 pb-4">
         <div className="text-xs uppercase tracking-widest text-zinc-500 text-center">
           Solutions in: Small Business • SaaS • E‑commerce • Services • Local
         </div>
       </section>
 
       {/* Services */}
-      <section id="services" className="mx-auto max-w-6xl px-6 py-12">
+      <section id="services" className="mx-auto max-w-6xl px-6 py-8">
         <h2 className="text-2xl md:text-3xl font-semibold">What we do</h2>
         <p className="text-zinc-400 mt-2">High‑leverage AI systems tailored to your business.</p>
         <ServiceAccordion items={services} />
       </section>
 
+      {/* Why AI Matters */}
+      <section id="why-ai" className="mx-auto max-w-6xl px-6 py-12">
+        <div className="rounded-2xl border border-white/10 p-8 bg-zinc-900/40">
+          <h2 className="text-2xl md:text-3xl font-semibold">Why AI Matters for Your Business Right Now</h2>
+          <div className="space-y-4 text-zinc-300 mt-4">
+            <p>
+              The last time we saw a shift this big was the dot‑com era. Some businesses adapted early and became giants. Many others ignored the internet and disappeared. In fact, almost half of the companies born during that time did not make it past 5 years (
+              <a href="https://www2.itif.org/2010-25-years.pdf?utm_source=chatgpt.com" target="_blank" className="text-brand hover:underline">
+                ITIF Study
+              </a>
+              ).
+            </p>
+            <p>
+              AI is the next wave — and it is moving even faster. PwC reports that AI will add over 15 trillion dollars to the global economy by 2030 (
+              <a href="https://www.pwc.com/gx/en/issues/analytics/assets/pwc-ai-analysis-sizing-the-prize-report.pdf" target="_blank" className="text-brand hover:underline">
+                PwC Global AI Report
+              </a>
+              ). That means your competitors who use AI will cut their costs, respond faster, and serve customers better. Those who do not will slowly lose margins until it becomes impossible to keep up.
+            </p>
+            <p>
+              This is the moment where small businesses either level up or get left behind. At AlphaFlow, we help business owners bring in simple AI tools that remove busy work, boost efficiency, and keep you ahead of the curve. AI is not just an upgrade — it is survival.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Process */}
-      <section id="process" className="mx-auto max-w-6xl px-6 py-12">
+      <section id="process" className="mx-auto max-w-6xl px-6 py-8">
         <div className="rounded-2xl border border-white/10 p-8 bg-zinc-900/50">
           <h2 className="text-2xl md:text-3xl font-semibold">How we work</h2>
           <div className="grid md:grid-cols-3 gap-6 mt-6">

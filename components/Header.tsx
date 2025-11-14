@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,10 +8,16 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 backdrop-blur bg-black/40 border-b border-white/5">
       <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="h-6 w-6 rounded-lg bg-brand/80 shadow-glow" />
-          <a href="/" className="font-semibold tracking-tight hover:text-white transition-colors">AlphaFlow</a>
-        </div>
+        <a href="/" className="flex items-center">
+          <Image
+            src="/alphaflowlogoupdatedpng.png"
+            alt="AlphaFlow full logo"
+            width={140}
+            height={32}
+            className="object-contain h-8 w-auto"
+            priority
+          />
+        </a>
         <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-300">
           <a href="/#services" className="hover:text-white">Services</a>
           <a href="/#process" className="hover:text-white">Process</a>
